@@ -1,5 +1,6 @@
 import Home from "./routes/Home"
 import Detail from "./routes/Detail";
+import "./styles.css";
 
 import { createBrowserRouter} from "react-router-dom"
 
