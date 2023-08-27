@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 function Movie ({id, coverImage, title, summry, genres}) {
     return <div>
     <img src={coverImage} alt={title} />
-    <h2><Link to={`/movie/${id}`}>{title}</Link></h2>
+    <h2><Link to={`/detail/${id}`}>{title}</Link></h2>
     <p>{summry}</p>
     <ul>
       {genres && genres.map((genre) => <li key={genre}>{genre}</li>)}
